@@ -7,23 +7,51 @@
     <link rel="icon" href="./Assets/pricon.webp">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.js">
 </head>
 <body>
+
+    
+
+
     <div class="container">
         <div class="first-container">
+            <!-- Header content -->
             <header>
                 <div>
-                    <img class="icon1" src="./Assets/Header icon.webp" alt="">
+                    <img class="icon1" src="./Assets/klizer-white-150x45.webp" alt="">
                 </div>
-                <ul class="first-ul">
-                    <li>Work <i class="fa-solid fa-angle-down"></i></li>
-                    <li>Service <i class="fa-solid fa-angle-down"></i></i></li>
-                    <li>Pricing</li>
-                    <li>Blog</li>
-                    <li><button class="header-button"><a href="#">Book a Free Audit</a></button></li>
-                </ul>
+               <div class="ultag">
+                    <i class="fa-solid fa-bars" onclick="opener()"  ></i>
+                    <ul class="first-ul"  id="nav">
+                        <i class="fa-solid fa-square-xmark" onclick="closer()" id="navclose"></i>
+                        <li>Work <i class="fa-solid fa-angle-down" onclick="" id="closer"></i></li>
+                         <li><ul class="drop-down1 ">
+                            <li><a href="#">Customer stories</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                         </ul></li>
+                        <li>Service <i class="fa-solid fa-angle-down"></i></li>
+                        <ul class="drop-down2">
+                            <li><a href="#">Artificial Inteligence</a></li>
+                            <li><a href="#">Headless Commerce</a></li>
+                            <li><a href="#">Adobe Commerce</a></li>
+                            <li><a href="#">shopify</a></li>
+                            <li><a href="#">Big Commerce</a></li>
+                            <li><a href="#">Mobile App</a></li>
+                            <li><a href="#">E-Commerce QA</a></li>
+                            <li><a href="#">ADA Compliance</a></li>
+                        </ul>
+                        <li>Pricing</li>
+                        <li>Blog</li>
+                        <li><button class="header-button"><a href="#">Book a Free Audit</a></button></li>
+                    </ul>
+               </div>
             </header>
+            <!-- Header content -->
         </div>
     </div>
 </body>
+
+
+ 
 </html>

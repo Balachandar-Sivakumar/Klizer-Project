@@ -14,7 +14,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    /* position: fixed; */
+     position: sticky;
+     height: 100px;
     
     
 }
@@ -23,8 +24,44 @@ i{
     color: white;
 }
 
-.icon1{
-    width: 200px;
+.drop-down1,.drop-down2{
+    list-style: none;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    background-color: rgb(241, 233, 233);
+    padding: 20px;
+    color: black;
+    /* display: none; */
+}
+
+
+.drop-down2 li{
+    margin-top: 15px;
+    
+
+}
+
+.drop-down1 li{
+    margin-top: 15px;
+}
+
+.drop-down1 a{
+    color: #020106;
+    font-size: 20px;
+}
+
+.fa-bars{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    top: -500px;
+    
+}
+
+.fa-square-xmark{
+    position: relative;
+    top: -500px;
     
 }
 
@@ -35,6 +72,8 @@ i{
     font-size: 16px;
     color: white;
     list-style: none;
+    cursor: pointer;
+
 }
 
 a{
@@ -52,3 +91,32 @@ a{
     color: white;
     border: none;
 }
+
+@media(max-width:1000px){
+    .fa-bars{
+        top: 30px;
+       
+    }
+
+    .fa-square-xmark{
+        top: 10px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .first-ul{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 300px;
+        position: relative;
+        top: 80px;
+        right: -350px;
+        transition: 0.7s linear;
+        height: auto;
+        background-color: green;
+        padding: 30px 0px;
+    }
+
+   
+}
+
