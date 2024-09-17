@@ -257,6 +257,7 @@ li:hover ul.drop-down2{
 }
 label{
     width: 100%;
+    margin-top: 10px;
 
 }
 input{
@@ -264,6 +265,7 @@ input{
     padding: 20px 0px;
     border: none;
     border-bottom: 1px solid gainsboro;
+    
    
 }
 #submit{
