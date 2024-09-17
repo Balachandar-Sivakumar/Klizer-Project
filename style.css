@@ -15,8 +15,16 @@
     background: linear-gradient(135deg, #1a0d3c,#000001);
 }
 
-a{
+.list-color-change a{
     color: white;
+}
+
+.ultag a{
+    color: white;
+}
+
+a{
+    
     text-decoration: none;
 }
 ul{
@@ -32,41 +40,46 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
+    /* background-color: white ; */
+    
     
 }
 
-.active{
-    background-color: white;
-    color: black;
-}
 
 
+/* 
 i{
     color: white;
-}
+} */
+
+
 
 #menu-bar{
     position: absolute;
     top: 20px;
     right: 20px;
     display: none;
+    color: white;
     
 }
 
 #cancel-menu{
     display: none;
+    color: white;
 }
 
 
 .ultag{
     display: flex;
     gap: 50px;
+    /* color: black; */
     align-items: center;
 }
 
 .ultag li{
     font-size: 16px;
     position: relative;
+    /* color: black; */
     height: 50px;
     display: flex;
     align-items: center;
@@ -82,6 +95,7 @@ i{
     visibility: hidden;
     opacity: 0;
     z-index: 1;
+    /* color: white; */
     top: 30px;
     /* width: 100%; */
 }
@@ -97,7 +111,16 @@ i{
     background-color: #303049;
    width: 80%;
    transition: .5s ease;
-   padding: 10px;   
+   padding: 10px;  
+   /* color: white;  */
+}
+
+.drop-down2 a{
+    color: white;
+}
+
+.drop-down1 a{
+    color: white;
 }
 
 .drop-down2{
@@ -110,6 +133,7 @@ i{
     z-index: 1;
     position: absolute;
     top: 30px;
+    
     min-width: 300px;
 
 }
@@ -165,25 +189,36 @@ li:hover ul.drop-down2{
 
 video{
     /* height: 730px; */
-    width: 1150px;
+    width: 1100px;
     border-radius: 30px;
 }
 
 .scrol{
  text-align: center;
  padding-top: 200px;
+ margin: 50px auto;
  
 }
+
+.move{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
 
 .main1 h1{
     font-size: 50px;
     line-height: 80px;
     margin-top: 0;
+    width: 70%;
+    margin: 0px auto;
 
 }
 
 .main1 p{
-    width: 85%;
+    width: 65%;
     font-size: 17px;
     line-height: 30px;
     margin: 20px auto;
@@ -199,6 +234,16 @@ video{
     font-size: 17px;
     font-weight: 500;
     margin-top: 20px;
+}
+
+footer{
+    padding: 50px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 /* bala */
@@ -283,6 +328,7 @@ video{
 }
 .flex-contant{
     display: flex;
+   
 }
 .comman-contant h1{
     text-align: center;
@@ -315,7 +361,15 @@ textarea{
     border-bottom: 1px solid gainsboro;
 }
 .second-pic{
-    width: 50%;
+    width: 100%;
+}
+
+.leader-pic{
+    width: 100%;
+}
+
+.leader2-pic{
+    width: 100%;
 }
 
 /* priya */
@@ -333,6 +387,7 @@ textarea{
        width: auto;
        min-width: 300px;
        padding: 20px;
+       /* color: white; */
        background-color: #041b2e ;
        position: relative;
        display: none;
@@ -340,8 +395,14 @@ textarea{
       
     }
 
+    .main1{
+        padding: 30px;
+        padding-bottom: 200px;
+    }
+
     .ultag li{
         margin: 20px;
+        /* color: white; */
     }
 
     .drop-down1{
@@ -362,6 +423,34 @@ textarea{
         display: block;
     }
 
+    
+
+    .main1 h1{
+        font-size: 25px;
+        width: 100%;
+        line-height: 35px;
+        /* padding: 30px; */
+        padding-bottom: 50px;
+       
+    }
+
+    .main1 p{
+
+        width: 80%;
+    }
+
+    .video{
+        width: 100%;
+    }
+    video{
+        width: 80%;
+    }
+
+    .box1{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
     /* bala */
 
     /* priya */
@@ -376,6 +465,16 @@ textarea{
         width: 100%;
         
     }
+
+    .flex-contant{
+        flex-wrap: wrap;
+        width: 100%;
+        /* padding: 20px; */
+    }
+
+   
+        
+    
     .main-flex{
         flex-wrap: wrap;
         justify-content: center;
