@@ -5,3 +5,5 @@ function opener(){
 function closer(){
     document.getElementById("hide").style.display = "none";
 }
+
+// on scroll event//

@@ -1,51 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>
       Klizer:IT Solutions for Manufactures and Distributers <p style="color:
       gray;">Klizer.com</p>
     </title>
-    <link rel="icon" href="./Assets/pricon.webp" />
+    <link rel="icon" href="./Assets/pricon.webp"/>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="index.js" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="crossorigin="anonymous"referrerpolicy="no-referrer"/>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"rel="stylesheet"/>
   </head>
   <body>
     <div class="container">
       <div class="first-container">
         <!-- header section -->
-        <header>
+        <header class="heading">
           <div class="image">
-            <img
-              class="first-image"
-              src="./Assets/klizer-white-150x45.webp" 
-              alt="Logo"
-            />
+            <img class="first-image" src="./Assets/klizer-white-150x45.webp" alt="Logo"/>
           </div>
           <nav>
-            <i class="fa-solid fa-bars" id="menu-bar" onclick="opener()"></i>
+            <i class="fa-solid fa-bars" id="menu-bar"  onclick="opener()"></i>
             <ul class="ultag" id="hide">
               <i
-                class="fa-regular fa-circle-xmark"
-                id="cancel-menu"
-                onclick="closer()"
-              ></i>
+                class="fa-regular fa-circle-xmark"id="cancel-menu"onclick="closer()"></i>
               <li>
                 <a href="">Work <i class="fa-solid fa-angle-down"></i></a>
                 <ul class="drop-down1" id="dropdown-content2">
@@ -78,9 +59,9 @@
           </nav>
         </header>
         <!-- header section -->
-        <div class="main1">
+        <div class="main1" onclick="closer()">
           <h1>
-            Driving Digital Transformaation for Manufacturing & Distributers
+            Driving Digital Transformation for Manufacturing & Distributers
           </h1>
           <p>
             Faster your business growth by leveraging disruptive technologies
@@ -90,7 +71,24 @@
           </p>
           <a href=""><button class="second-button">Consult Our Expert</button></a>
         </div>
+        
       </div>
+
+      <div class="video">
+        <video loop autoplay muted>
+          <source src="./Assets/Klizer_Ecommerce-design-and-development.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="scrol">
+        <h2>TRUSTED BY FAST GROWING BUSINESS</h2>
+        <div class="scrol-image">
+          <img src="" alt="">
+        </div>
+      </div>
+
+
+
       <div class="leaders">
         <div class="main">
             <h1 id="heading">B2B eCommerce leaders love working with Klizer</h1>
