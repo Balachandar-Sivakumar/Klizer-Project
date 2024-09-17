@@ -1,3 +1,10 @@
+
+
+
+
+
+/* bala */
+
 *{
     margin: 0;
     padding: 0;
@@ -155,6 +162,125 @@ li:hover ul.drop-down2{
     font-size: 17px;
     font-weight: 500;
 }
+
+/* bala */
+
+/* priya */
+#heading{
+    font-size: 43px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Literata", serif;
+}
+.main-flex{
+    display: flex;
+    border-top: 1px solid rgb(209, 205, 205);
+    border-left: 1px solid rgb(209, 205, 205);
+    border-radius: 30px;
+}
+.contant{
+    width: 50%;
+    padding: 20px 80px;
+}
+.logo-img{
+    margin-top: 20px;
+}
+.contant p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Inter", sans-serif;
+}
+.work{
+    display: flex;
+    gap: 120px;
+    border:1px solid rgb(209, 205, 205) ;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    
+}
+.SRS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px; 
+    cursor: pointer;
+}
+.moody-price{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.jessie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+    cursor: pointer; 
+}
+.name{
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+}
+.SRS:active{
+    background-color: hsla(256, 44%, 42%,0.3);
+    border: 1px solid rgb(66, 5, 124);
+    border-radius: 10px;
+    /* overflow: hidden; */  
+}
+.moody-price:active{
+    background-color: hsla(256, 44%, 42%,0.3);
+    border: 1px solid rgb(69, 5, 128);
+    border-radius: 10px;
+}
+
+.jessie:active{
+    background-color: hsla(256, 36%, 51%, 0.3);
+    border: 1px solid rgb(53, 5, 97);
+    border-radius: 10px;
+
+}
+.flex-contant{
+    display: flex;
+}
+.comman-contant h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form-info{
+    width: 50%;
+    padding: 20px 25px;
+}
+label{
+    width: 100%;
+
+}
+input{
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+   
+}
+#submit{
+    border-radius: 30px;
+    background-color: blue;
+}
+textarea{
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+.second-pic{
+    width: 50%;
+}
+
+/* priya */
 
 @media(max-width:900px){
     .ultag{
