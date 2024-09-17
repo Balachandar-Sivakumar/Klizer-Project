@@ -283,6 +283,10 @@ textarea{
 /* priya */
 
 @media(max-width:900px){
+    
+    
+    /* bala */
+    
     .ultag{
         align-items: flex-start;
        flex-wrap: wrap;
@@ -319,6 +323,35 @@ textarea{
     #menu-bar{
         display: block;
     }
+
+    /* bala */
+
+    /* priya */
+    #heading{
+        text-align: center;
+    }
+    .contant{
+        padding: 0;
+        margin: 0;
+    }
+    .contant p{
+        width: 100%;
+        
+    }
+    .main-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .work{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        border: 1px solid ghostwhite;
+        border-radius: 10px;
+    }
+    /* priya */
 }
 
 
