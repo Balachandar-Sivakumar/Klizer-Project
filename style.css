@@ -174,7 +174,7 @@ li:hover ul.drop-down2{
     color: white;
     text-align: center;
     padding: 100px;
-    padding-bottom: 550px;
+    padding-bottom: 40%;
 }
 
 .video{
@@ -189,7 +189,7 @@ li:hover ul.drop-down2{
 
 video{
     /* height: 730px; */
-    width: 1100px;
+    width: 80%;
     border-radius: 30px;
 }
 
@@ -336,7 +336,7 @@ footer{
     margin-bottom: 50px;
 }
 .form-info{
-    width: 50%;
+    width: 100%;
     padding: 20px 25px;
 }
 label{
@@ -504,6 +504,33 @@ h4{
 
 /* Ajith */
 
+ @media(max-width:1250px){
+    
+    .main1 h1{
+        font-size: 50px;
+        
+        width: 100%;
+        line-height: 60px;
+        /* padding: 30px; */
+        /* padding-bottom: 0px; */
+       
+    }
+
+    .main1 p{
+
+        width: 80%;
+    }
+
+    .video{
+        width: 100%;
+    }
+    video{
+        width: 80%;
+    }
+  
+
+} 
+
 @media(max-width:900px){
     
     
@@ -525,11 +552,7 @@ h4{
       
     }
 
-    .main1{
-        padding: 30px;
-        padding-bottom: 200px;
-    }
-
+   
     .ultag li{
         margin: 20px;
         /* color: white; */
