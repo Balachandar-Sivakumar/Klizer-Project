@@ -374,6 +374,136 @@ textarea{
 
 /* priya */
 
+/* Whole container */
+
+#whole-container{
+    background-color:#F9F7FF;
+    color: #334155;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Style for starting content */
+#starting{
+    font-size: 16px;
+    font-family: "Inter",sans-serif;
+    font-weight:400;
+    color: rgb(17, 17, 17);
+    padding: 50px 0px;
+}
+
+/* Heading styling */
+#overall-heading{
+    color: rgb(10, 10, 10);
+    font-family:"Literata", serif;
+    font-size: 42px;
+    font-weight: 550;
+}
+
+/* Styling foe log path container */
+#logo-path{
+    margin-top: 20px;
+    display: flex;
+    gap: 180px;
+    font-family: "Inter";
+    font-size: 20px;
+    justify-content: center;
+    color: #727299;
+    background-color:#ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+
+/* Logo1,2,3 container styling */
+#cont1{
+   border-radius: 10px;
+   width: 20%;
+   padding: 10px;
+   
+}
+#cont2{
+    border-radius: 10px; 
+    width: 20%;
+    padding: 10px;
+
+
+}
+#cont3{
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    justify-content: center;
+
+
+}
+
+/* Logo hovering */
+#cont1:hover{
+    color: rgb(116, 47, 226);
+    cursor: pointer; 
+    border: 1px solid;
+}
+#cont2:hover{
+    color: rgb(116, 47, 226);
+    cursor: pointer; 
+    border: 1px solid;
+}
+#cont3:hover{
+    color: rgb(116, 47, 226);
+    cursor: pointer; 
+    border: 1px solid;
+}
+
+
+/* Logo and info styling */
+.specfic-logo{
+    display: flex;
+    margin: 0;
+    padding:2px;
+    right: 100%;
+}
+h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* Content space container styling */
+#content-space{
+    display: flex;
+    padding: 10px 50px;
+    font-family: "Inter";
+    font-weight:400px;
+    font-size: 15px;
+    line-height: 27px;
+    color: black;
+    background-color: rgb(255, 255, 255); 
+}
+
+/* Content para styling */
+#para{
+    width: 50%;
+}
+
+/* 3div styling */
+
+#cards{
+    width: 50%;
+    padding: 10px;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+#cont-imgside{
+    padding: 30px;
+    width:90%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: #c4c2c7 3px 3px 3px 3px ; 
+}
+
+/* Ajith */
+
 @media(max-width:900px){
     
     
