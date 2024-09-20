@@ -281,7 +281,8 @@ footer{
 .last{
     float: right;
     margin-top: 20px;
-    color: white;
+    color: rgb(209, 205, 205);
+    padding:0px 20px;
 }
 
 
