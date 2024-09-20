@@ -13,6 +13,11 @@
 
 .container{
    max-width: 1440px;
+   font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px auto;
 }
 
 .first-container{
@@ -48,7 +53,8 @@ header{
     position: sticky;
     top: 0;
     z-index: 1;
-    /* background-color: white ; */
+    background: linear-gradient(135deg, #1a0d3c,#000001);
+    
      
 
     
@@ -194,12 +200,14 @@ li:hover ul.drop-down2{
     top: 630px;
     margin: 0px auto;
     width: 100%;
+    max-width: 1440px;
 }
 
 video{
     /* height: 730px; */
     width: 80%;
     border-radius: 30px;
+    max-width: 1152px;
 }
 
 .scrol{
@@ -212,7 +220,7 @@ video{
 }
 
 .move{
-    width: 300px;
+    width: 20%;
     margin-left: 100px;
     margin-top: 30px;
 }
@@ -295,6 +303,10 @@ footer{
     margin-bottom: 50px;
     font-family: "Literata", serif;
 }
+
+.main{
+    padding: 20px;
+}
 .main-flex{
     display: flex;
     border-top: 1px solid rgb(209, 205, 205);
@@ -309,6 +321,7 @@ footer{
     margin-top: 20px;
 }
 .contant p{
+    width: 80%;
     font-size: 20px;
     line-height: 30px;
     font-family: "Inter", sans-serif;
@@ -619,6 +632,7 @@ h4{
     }
 
    
+   
     .ultag li{
         margin: 20px;
         /* color: white; */
@@ -677,8 +691,9 @@ h4{
         text-align: center;
     }
     .contant{
-        padding: 0;
+        padding: 20px;
         margin: 0;
+        width: 100%;
     }
     .contant p{
         width: 100%;
