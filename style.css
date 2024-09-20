@@ -49,7 +49,8 @@ header{
     top: 0;
     z-index: 1;
     /* background-color: white ; */
-    
+     
+
     
 }
 
@@ -190,7 +191,7 @@ li:hover ul.drop-down2{
     justify-content: center;
     /* z-index: 1; */
     position: absolute;
-    top: 600px;
+    top: 630px;
     margin: 0px auto;
     width: 100%;
 }
@@ -211,8 +212,8 @@ video{
 }
 
 .move{
-    width: 200px;
-    margin-left: 20px;
+    width: 300px;
+    margin-left: 100px;
     margin-top: 30px;
 }
 
@@ -416,7 +417,8 @@ textarea{
     font-family: "Inter",sans-serif;
     font-weight:400;
     color: rgb(17, 17, 17);
-    padding: 50px 0px;
+    padding-top: 50px;
+    
 }
 
 /* Heading styling */
