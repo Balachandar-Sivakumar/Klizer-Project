@@ -319,19 +319,19 @@ footer{
     margin-left: 20px;
     font-family: "Inter", sans-serif;
 }
-.SRS:active{
+.SRS:hover{
     background-color: hsla(256, 44%, 42%,0.3);
     border: 1px solid rgb(66, 5, 124);
     border-radius: 10px;
     /* overflow: hidden; */  
 }
-.moody-price:active{
+.moody-price:hover{
     background-color: hsla(256, 44%, 42%,0.3);
     border: 1px solid rgb(69, 5, 128);
     border-radius: 10px;
 }
 
-.jessie:active{
+.jessie:hover{
     background-color: hsla(256, 36%, 51%, 0.3);
     border: 1px solid rgb(53, 5, 97);
     border-radius: 10px;
@@ -372,7 +372,6 @@ input{
     border: none;
     border-bottom: 1px solid gainsboro;
     margin-bottom: 20px;
-   
 }
 #submit{
     border-radius: 30px;
@@ -385,6 +384,7 @@ textarea{
     border-bottom: 1px solid gainsboro;
     margin-bottom: 20px;
 }
+    
 .second-pic{
     width: 80%;
     height: 90%;
