@@ -255,43 +255,7 @@ video{
     margin-top: 20px;
 }
 
-footer{
-    padding: 50px 0px;
-    background-color:black;
-    margin: 0;
-}
 
-.box1{
-    display: flex;
-    justify-content: space-between; 
-    padding: 10px;
-}
-.box1 a,h3{
-    color: white;
-    width: 90%;
-    margin-top: 20px;
-}
-.logo-part li{
-    display: flex;
-}
-.first-list{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    gap: 20px;
-    font-size: 30px;
-}
-.footer-contant ul{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.last{
-    float: right;
-    margin-top: 20px;
-    color: rgb(209, 205, 205);
-    padding:0px 20px;
-}
 
 
 /* bala */
@@ -440,7 +404,57 @@ textarea{
 
 .leader2-pic{
     width: 90%;
-}   
+}  
+
+.box1{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+}
+.box1 a,h3{
+    color: white;
+    width: 90%;
+    margin-top: 20px;
+}
+.logo-part li{
+    display: flex;
+}
+.first-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 30px;
+}
+.footer-contant ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.last{
+    float: right;
+    margin-top: 20px;
+    color: rgb(209, 205, 205);
+    padding:0px 20px;
+}
+
+footer{
+    padding: 50px 0px;
+    background-color:black;
+    margin: 0;
+}
+.footer-contant ul li a:hover{
+
+    background-color: rgb(255, 255, 255,0.5);
+    color: black;
+    padding: 10px;
+
+}
+
+
+
+
+
 /* priya */
 
 /* Whole container */
@@ -725,7 +739,24 @@ h4{
     }
     .second-pic{
         width: 100%;
+        padding: 15px;
     }
+
+    .box1{
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .first-list{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-contant{
+        width: 100%;
+    }
+    
     /* priya */
 
     /* Ajith */
