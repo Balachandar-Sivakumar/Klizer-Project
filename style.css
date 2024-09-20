@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 
 
 
@@ -11,8 +11,16 @@
     
 }
 
+.container{
+   
+}
+
 .first-container{
     background: linear-gradient(135deg, #1a0d3c,#000001);
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .list-color-change a{
@@ -214,13 +222,13 @@ video{
     font-size: 50px;
     line-height: 80px;
     margin-top: 0;
-    width: 70%;
+    width: 75%;
     margin: 0px auto;
 
 }
 
 .main1 p{
-    width: 65%;
+    width: 70%;
     font-size: 17px;
     line-height: 30px;
     margin: 20px auto;
@@ -382,7 +390,7 @@ textarea{
     background-color:#F9F7FF;
     color: #334155;
     margin: 0px;
-    padding: 0px 100px;
+    padding: 0px 10px;
 }
 
 /* Style for starting content */
@@ -492,14 +500,14 @@ h4{
 
 #cards{
     width: 100%;
-    /* display: flex;
+     display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center; 
 }
 
 #cont-imgside{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     box-shadow: 0px  0px 15px  rgb(129, 126, 126);
     border-radius: 20px;
 }
@@ -515,7 +523,7 @@ h4{
 
 /* Ajith */
 
- @media(max-width:1250px){
+ @media(max-width:1320px){
     
     .main1 h1{
         font-size: 50px;
@@ -542,7 +550,7 @@ h4{
 
 } 
 
-@media(max-width:900px){
+@media(max-width:1050px){
     
     
     /* bala */
@@ -675,6 +683,7 @@ h4{
         width: 100%;
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         
     }
     #cont2{
@@ -683,6 +692,29 @@ h4{
         align-items: center;
         
     }
+}
+
+@media(max-width:768px){
+     
+    .horizontal-line{
+        width: 100%;
+    }
+
+
+    .main1 h1{
+        font-size: 25px;
+        width: 100%;
+        line-height: 35px;
+        /* padding: 30px; */
+        padding-bottom: 50px;
+       
+    }
+
+    .main1 p{
+
+        width: 80%;
+    }
+
 }
 
 
