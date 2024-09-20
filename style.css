@@ -597,39 +597,91 @@ h4{
 
 /* next page ajith */
 
-#over-all-container-of-current-page{
-    background-color: #212065;
-}
 
 #nextpage-h1{
     color: rgb(10, 10, 10);
     font-family:"Literata", serif;
     font-size: 44px;
     font-weight: 550;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    padding: 50px 0px;
 }
 
 #img-content-container{
     display: flex;
+    padding: 20px;
 }
 
 #img-cont22{
-    margin-top: 50px;
-    width: 82%;
+    /* margin-top: 50px; */
+    width: 90%;
+    height: 100%;
+}
+
+
+#content-whole-container{
+    /* margin-top: 60px; */
+    width: 50%;
+    font-family: "Inter",sans-serif;
+    font-weight:400;
+    color: rgb(17, 17, 17);
+    padding-top: 50px;
 }
 
 .hide-content{
     display: none;
+    margin-bottom: 50px;
+  }
+
+  .opens{
+    font-size: 22px;  
+    color:#000001;
   }
 
   .opens:hover{
     cursor: pointer;
+    color: #522ac1;
+    line-height: 300%;
   }
       
   .opens:hover+ .hide-content{
     display: block;
-    color: rgb(126, 95, 236);
+    color: rgb(4, 0, 17);
   }
+#img-content-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.line-pic{
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+#currentpage-h1{
+    color: rgb(10, 10, 10);
+    font-family:"Literata", serif;
+    font-size: 44px;
+    font-weight: 550;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+#n-content-whole-container{
+    padding: 20px 80px;
+    align-items: center;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+   
+}
+
+.gapline{
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+
 
 
 
@@ -831,6 +883,10 @@ h4{
         display: flex;
         align-items: center;
         
+    }
+
+    .line-pic{
+        width: 100%;
     }
 }
 
