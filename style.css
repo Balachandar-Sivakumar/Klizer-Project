@@ -338,16 +338,28 @@ footer{
 }
 .flex-contant{
     display: flex;
-   
+    justify-content: space-between;
 }
 .comman-contant h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
+}
+h1{
+    font-size:45px;
+    padding: 20px 0px;
 }
 .form-info{
-    width: 100%;
+    width: 70%;
     padding: 20px 25px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.form-page{
+    background-color: #efeff5;
 }
 label{
     width: 100%;
@@ -358,6 +370,7 @@ input{
     padding: 20px 0px;
     border: none;
     border-bottom: 1px solid gainsboro;
+    margin-bottom: 20px;
    
 }
 #submit{
@@ -369,9 +382,13 @@ textarea{
     padding: 20px 0px;
     border: none;
     border-bottom: 1px solid gainsboro;
+    margin-bottom: 20px;
 }
 .second-pic{
-    width: 100%;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 .leader-pic{
@@ -379,7 +396,7 @@ textarea{
 }
 
 .leader2-pic{
-    width: 100%;
+    width: 90%;
 }
 
 /* priya */
@@ -643,10 +660,6 @@ h4{
         width: 100%;
         /* padding: 20px; */
     }
-
-   
-        
-    
     .main-flex{
         flex-wrap: wrap;
         justify-content: center;
@@ -659,6 +672,14 @@ h4{
         width: 100%;
         border: 1px solid ghostwhite;
         border-radius: 10px;
+    }
+    .flex-contant{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .second-pic{
+        width: 100%;
     }
     /* priya */
 
