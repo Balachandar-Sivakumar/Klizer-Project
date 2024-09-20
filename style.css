@@ -12,7 +12,7 @@
 }
 
 .container{
-   
+   max-width: 1440px;
 }
 
 .first-container{
@@ -615,7 +615,7 @@ h4{
     
 
     .main1 h1{
-        font-size: 25px;
+        font-size: 30px;
         width: 100%;
         line-height: 35px;
         /* padding: 30px; */
@@ -721,6 +721,11 @@ h4{
         width: 100%;
     }
 
+    .main1{
+        padding: 70px;
+        padding-bottom: 50%;
+    }
+
 
     .main1 h1{
         font-size: 25px;
@@ -733,9 +738,39 @@ h4{
 
     .main1 p{
 
-        width: 80%;
+        width: 100%;
     }
 
 }
+
+@media(max-width:570px){
+     
+    .horizontal-line{
+        width: 100%;
+    }
+
+    .main1{
+        padding: 30px;
+        padding-bottom: 50%;
+    }
+
+
+    .main1 h1{
+        font-size: 20px;
+        width: 100%;
+        line-height: 35px;
+        /* padding: 30px; */
+        padding-bottom: 50px;
+       
+    }
+
+    .main1 p{
+
+        width: 100%;
+        font-size: 15px;
+    }
+
+}
+
 
 
