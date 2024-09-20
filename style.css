@@ -457,6 +457,8 @@ footer{
 
 /* priya */
 
+/* ajith */
+
 /* Whole container */
 
 #whole-container{
@@ -591,6 +593,47 @@ h4{
 
 
 /* 3div styling */
+
+
+/* next page ajith */
+
+#over-all-container-of-current-page{
+    background-color: #212065;
+}
+
+#nextpage-h1{
+    color: rgb(10, 10, 10);
+    font-family:"Literata", serif;
+    font-size: 44px;
+    font-weight: 550;
+    margin-top: 80px;
+}
+
+#img-content-container{
+    display: flex;
+}
+
+#img-cont22{
+    margin-top: 50px;
+    width: 82%;
+}
+
+.hide-content{
+    display: none;
+  }
+
+  .opens:hover{
+    cursor: pointer;
+  }
+      
+  .opens:hover+ .hide-content{
+    display: block;
+    color: rgb(126, 95, 236);
+  }
+
+
+
+
 
 
 
