@@ -263,8 +263,7 @@ video{
 /* priya */
 #heading{
     font-size: 43px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 50px 0px;
     font-family: "Literata", serif;
 }
 
@@ -985,7 +984,75 @@ h4{
 }
 
 @media(max-width:425px){
-    
+    h2{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #overall-heading{
+        font-size: 30px;
+    }
+    #logo-path{
+        font-size: 17px;
+    }
+    #nextpage-h1{
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+    .opens {
+        font-size: 17px;
+    }
+    #currentpage-h1{
+        font-size: 30px;
+    }
+    .hide-content{
+        font-size: 15px;
+    }
+    #heading{
+        font-size: 30px;
+    }
+    .contant p{
+        font-size: 15px;
+    }
+    .sized-text{
+        font-size: 17px;
+    }
+    .comman-contant h1 {
+        font-size: 30px;
+    }
+    .scrol {
+        margin: 60px auto;
+    }
+
+    .move{
+        width: 30%;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+    .scrol{
+        margin-bottom: 0;
+    }
+
+    .line-pic{
+        margin-bottom: 35px;
+    }
+
+    #content-whole-container{
+        padding-top: 0;
+    }
+
+    #heading{
+        
+        padding: 30px 0px;
+        font-family: "Literata", serif;
+    }
+
+    .work{
+        gap: 50px;
+    }
+
+
+
 }
 
 
