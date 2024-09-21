@@ -18,4 +18,5 @@ window.addEventListener("resize",()=>{
     }
 })
 
+
 // on scroll event//
