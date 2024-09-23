@@ -10,7 +10,7 @@ window.addEventListener("resize",()=>{
     console.log(window.screen.width);
     if(window.screen.width > 1050)
     {
-        document.getElementsByClassName("ultag")[0].style.display = "flex";
+        document.getElementsByClassName("ultag")[0].style.display = "";
         console.log("Incoming")
     }
     else{
